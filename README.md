@@ -18,11 +18,11 @@ If you have an ESP32 development board, you can compile Sploony using PlatformIO
 * Uses readonly and invoice macaroons, which won't compromise your funds if leaked.
 
 ### To Do
-* Check invoice expiry
+* Check invoice expiry!!!
 * Captive portal for WiFi and LN host config
 * Connect to BTCPayServer
 * Better modularity to support different peripherals: bigger TFT displays, Neopixel LEDs, keypad input etc.
 * Fleet management web UI
 
-###Notes
+### Notes
 * Also check out https://github.com/arcbtc/1.21 if you're working with [Acinq Strike](https://strike.acinq.co/)
