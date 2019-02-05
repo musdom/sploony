@@ -8,7 +8,7 @@ The ESP32 platform is the cheapest hardware capable of practical secure connecti
 
 ### Setup
 
-If you have an ESP32 development board, you can compile Sploony using PlatformIO or Arduino IDE. A quick guide can be found here: [SETUP](/docs/SETUP.md)
+If you have an lnd node with a publicly reachable REST gateway, and an ESP32 development board, you can compile and run Sploony using PlatformIO or Arduino IDE. A quick guide can be found here: [SETUP](/docs/SETUP.md)
 
 ### Features
 * Fetches invoice from lnd and monitors its payment status
