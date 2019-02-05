@@ -1,6 +1,6 @@
 # Sploony
 
-Sploony is an arduino-esp32 based firmware that lets ESP32 SoC boards interact with the Lightning Network. One or multiple Sploonies can connect directly to a single [lnd](https://github.com/lightningnetwork/lnd) to display machine-readable invoices, and act upon its invoice once paid. See a video of it here: https://twitter.com/sakak_musdom/status/1084857547947880448
+Sploony is firmware that lets ESP32 SoC boards interact with the Lightning Network. One or multiple Sploonies can connect directly to a single [lnd](https://github.com/lightningnetwork/lnd) to display machine-readable invoices, and act upon its invoice once paid. See a video of it here: https://twitter.com/sakak_musdom/status/1084857547947880448
 
 ![Battery powered sploony](/docs/image1.jpg)
 
@@ -8,7 +8,7 @@ The ESP32 platform is the cheapest hardware capable of practical secure connecti
 
 ### Setup
 
-If you have an lnd node with a publicly reachable REST gateway, and an ESP32 development board, you can compile and run Sploony using PlatformIO or Arduino IDE. A quick guide can be found here: [SETUP](/docs/SETUP.md)
+If you have an lnd node with a publicly reachable REST gateway, and an ESP32 development board, you can compile and run Sploony using PlatformIO or Arduino IDE. A quick guide can be found [here](/docs/SETUP.md).
 
 ### Features
 * Fetches invoice from lnd and monitors its payment status

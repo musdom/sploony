@@ -17,7 +17,7 @@ Version without display: [ESP-32 Development Board](https://www.aliexpress.com/i
 Sploony is developed using PlatformIO and the Arduino framework for ESP32. Install PlatformIDE for VSCode, following their quick start guide:
 https://docs.platformio.org/en/latest/ide/vscode.html#ide-vscode.
 
-Try building and uploading a simple sketch like this one:
+Try building and uploading a simple sketch like this one, just to make sure everything works fine:
 https://github.com/platformio/platform-espressif32/tree/master/examples/arduino-blink
 
 ### Flashing the firmware
