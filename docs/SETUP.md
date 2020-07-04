@@ -1,6 +1,6 @@
 ### Lightning Network node
 
-Sploony currently works with [lnd](https://github.com/lightningnetwork/lnd) `v0.5.1-beta`. You will have to set up your own lnd node if you haven't already, then expose the REST interface to your local network or forward port 8080 externally. This step is quite involved especially if you have dynamic IP, but if you managed to have wallets such as Zap or Lightning Joule remotely connect to your lnd, Sploonies work similarly.
+Sploony currently works with [lnd](https://github.com/lightningnetwork/lnd) `v0.10.1-beta`. You will have to set up your own lnd node if you haven't already, then expose the REST interface to your local network or forward port 8080 externally. This step is quite involved especially if you have dynamic IP, but if you managed to have wallets such as Zap or Lightning Joule remotely connect to your lnd, Sploonies work similarly.
 
 In the future, we could possibly have pre-configured boxes such as [Casa Node](https://keys.casa/lightning-bitcoin-node/) automatically discover Sploonies in its local area network and pair to them in a few clicks.
 
