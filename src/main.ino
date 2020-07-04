@@ -29,9 +29,9 @@ SSD1306Wire  display(0x3c, 5, 4);
 
 // Create the QR code
 QRCode qrcode;
-uint8_t qrVersion = 10; // max 279 alphanumeric
+uint8_t qrVersion = 11; // max 279 alphanumeric
 // qrcode_getBufferSize(qrVersion)
-uint8_t qrcodeData[407]; //v10 = 407, v9 = 352
+uint8_t qrcodeData[466]; //v10 = 407, v9 = 352
 
 String readFile(fs::FS &fs, const char * path, bool macaroon){
     Serial.printf("Reading file: %s\r\n", path);
